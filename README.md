@@ -1,90 +1,98 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+This is a responsive portfolio website designed to showcase web development skills, projects, and contact information. The site features a modern, clean design with smooth animations and interactive elements.
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Live Demo
+View the live website
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+Project Structure
+text
+portfolio-website/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── hero-image.svg
+│   ├── about-image.svg
+│   └── project-*.svg
+└── README.md
+Features
+Responsive Design: Works on mobile, tablet, and desktop devices
 
----
+Interactive Elements:
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Mobile-friendly navigation menu
 
-Before you write any code, take time to plan:
+Form validation for contact form
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Smooth scrolling to sections
 
-**Goal:** Show intentional structure and user journey across the site.
+Back-to-top button
 
----
+Scroll animations
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Modern Design: Clean layout with thoughtful use of color and typography
 
-Using your plan, begin building:
+Semantic HTML5: Proper use of semantic elements for better accessibility and SEO
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+CSS Animations: Subtle animations to enhance user experience
 
-Each page should:
+Technologies Used
+HTML5
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+CSS3 (Flexbox, Grid, Variables, Animations)
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+JavaScript (ES6+)
 
----
+Font Awesome Icons
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Setup Instructions
+Clone or download the project files
 
-Before deployment, refactor your project to follow production-friendly practices:
+Ensure all files are maintained in the proper directory structure:
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+HTML file in the root directory
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+CSS files in the /css folder
 
----
+JavaScript files in the /js folder
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+Images in the /images folder
 
-Once your project is complete, choose a method to **host your site online**.
+To link the CSS file, add this to the <head> section of your HTML:
 
-You can use:
+html
+<link rel="stylesheet" href="css/styles.css">
+To link the JavaScript file, add this right before the closing </body> tag:
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+html
+<script src="js/script.js"></script>
+Customization
+To customize this portfolio for your own use:
 
-Deploy your project and confirm that:
+Update personal information in the HTML:
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+Name, title, and description in the Hero section
 
-**Goal:** Publish your work online and make it accessible to the world.
+About me text
 
----
+Skills and projects
 
-## Deliverables
+Contact information
 
-1. A GitHub repository containing:
+Replace placeholder images with your own in the /images folder
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+Modify colors by changing the CSS custom properties in the :root selector
 
----
+Add or remove project cards as needed
 
-## Outcome
+Browser Compatibility
+This website works on all modern browsers including:
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Chrome (recommended)
+
+Firefox
+
+Safari
+
+Edge
